@@ -40,5 +40,6 @@ We want o be polite, so we only pull data once every two minutes for the first f
 ## Todo:
   1. postgresql or other db (mysql, mysq lite) as configure in docker-compose.yml
   2. some visualtion would be nice. Right now the data just live in the DB. Maybe a flask app?
-  2. Perhaps it might be interesting to do this with reddit or another social news site
+  3. Perhaps it might be interesting to do this with reddit or another social news site
+  4. Public a live API feed / data dumps of the HN feed for anyone to analyze
 
