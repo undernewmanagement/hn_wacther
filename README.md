@@ -19,7 +19,7 @@ prove valuable, or at least interesting to some folks. The variable we capture a
 This is a python script and docker image which will collect bookmark rankings from Hacker News 
 (http://news.ycombinator.com).
 
-We want o be polite, so we only pull data once every two minutes for the first five pages.
+We want to be polite, so we only pull data once every two minutes for the first five pages.
 
 ## Requirements
   1. Python 3+
