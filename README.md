@@ -33,8 +33,9 @@ We want o be polite, so we only pull data once every two minutes for the first f
   1. Setup your database
   2. Build your database url string and put that into you `.env` file
      eg - postgres://user:pass@host/dbname
-  3. source .env file and run python db.py to setup the tables in your DB
-  4. run docker-compose up -d to run in backgroundo
+  3. run `source .env`
+  4. run `python db.py` to setup the tables in your DB
+  5. run `docker-compose up -d` to run in backgroundo
 
 ## Todo:
   1. postgresql or other db (mysql, mysq lite) as configure in docker-compose.yml
