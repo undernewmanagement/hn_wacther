@@ -31,7 +31,7 @@ We want to be polite, so we only pull data once every two minutes for the first 
 
 ## Getting started
   1. Setup your database
-  2. Build your database url string and put that into you `.env` file
+  2. Copy `env.sample` to `.env`. Build your database url string and put that into you `.env` file
      eg - postgres://user:pass@host/dbname
   3. run `source .env`
   4. run `python db.py` to setup the tables in your DB
